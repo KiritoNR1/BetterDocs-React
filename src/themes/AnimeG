@@ -1,0 +1,63 @@
+/*//META{"name":"AnimeG","description":"Support Server: https://discord.gg/NyMxSA","author":"Kirito3","version":"0.1","website":"https://deseneanime.ro/","source":"https://github.com/KiritoNR1/AnimeG"}*//**/ 
+
+/* Sorce Code */
+@import url(https://chatt3st.000webhostapp.com/master_code.css);
+/* Animations */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/No.css);
+/* Minimal Mode */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/No.css);
+/* Settings Dock */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Popup/Yes.css);
+/* Channels */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Channels/No.css);
+/* Chat Title Bar */
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Chat_Title_Bar/No.css);
+/* Guild List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Guilds/No.css);
+/* Invites */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Invites/No.css);
+/* Member List */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Members/No.css);
+/* Windows Bar */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Windows_Bar/No.css);
+/* Offline Members */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Offline/No.css);
+/* User Popout Footer */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Popout_Footer/Yes.css);
+ 
+/* Transparency Patch */ 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Transparency/No.css);
+
+:root {
+  --Main-Colour: rgba(157,208,235,1);
+  --Background-Colour: rgba(0,0,0,1);
+  --S-Colour: rgba(0,0,0,.3);
+  --M-Colour: rgba(157,208,235,.5);
+  --Text-Shadow-Colour: rgba(0,0,0,.65);
+  --Scroller-Colour: rgba(234,25,30,0);
+  --Notification-Colour: rgba(234,25,30,1);
+  --Chat-Input-Background: rgba(0,0,0,0);
+  --Chat-Input-Colour: var(--Main-Colour) ;
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --Chat-Background: url(https://chatt3st.000webhostapp.com/background1.png);
+  --Settings-Background: url(https://chatt3st.000webhostapp.com/background1.png);
+  --Callout-Background: url(https://chatt3st.000webhostapp.com/background1.png);
+  --Title-Background: var(--Background-Colour);
+  --Theme-Variant: " AnimeG ";
+  --Chat-Font-Used: ;
+  --Chat-Font-Size: 15px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background: var(--Chat-Background);
+  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: var(--S-Colour);
+  --load1: "Tema creata";
+  --load2: "Special pentru tine!";
+  --load3: "â˘AnimeG";
+  --Settings-Dock-Colour: var(--Main-Colour);
+  --Timestamp-Colour: var(--M-Colour);
+  --Guild-Rows: 2;
+  --Chat-Avatar-Border-Radius: 10%;
+  --Background-Brightness: 0.43;
+}
